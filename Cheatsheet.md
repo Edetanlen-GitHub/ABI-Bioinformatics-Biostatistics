@@ -1,3 +1,20 @@
+# Create a table
+| Command			| Description				|
+|-------------------------------/---------------------------------------/
+| git init			| Initialize a new Git repository	|
+| git clone <url>		| Clone a repository			|
+| git status			| Clone a repository			|
+| git add <file>      		| Stage (add) a file			|
+| git commit -m "message"       | Commit staged changes with a message  |
+| git push origin main      	| Push commits to the remote main branch|
+| git pull origin main      	| Pull updates from remote main branch  |
+| git remote -v             	| Show remote connections               |
+| git branch                	| List local branches                   |
+| git checkout <branch>     	| Switch to a branch                    |
+| git merge <branch>        	| Merge a branch into current branch    |
+| ssh-keygen                	| Generate a new SSH key                |
+| cat ~/.ssh/id_rsa.pub     	| View your SSH public key              |
+
 # Step 1: Check if 'Cheatsheet' is a file or a directory
 ls -l
 
