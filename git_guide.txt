@@ -1,0 +1,41 @@
+# 🧠 Git + GitHub SSH Setup Cheatsheet
+
+## 1. Generate SSH key
+ssh-keygen
+
+## 2. View SSH public key
+cat ~/.ssh/id_rsa.pub
+
+## 3. Change Git remote to use SSH
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+# Example for you:
+# git remote set-url origin git@github.com:Edetanlen-GitHub/ABI-Bioinformatics-Biostatistics.git
+
+## 4. Verify the remote URL
+git remote -v
+
+## 5. Test SSH connection to GitHub
+ssh -T git@github.com
+
+## 6. Push changes to GitHub
+git push origin main
+
+# 🛠️ Extra Useful Commands
+
+# Check Git status
+git status
+
+# Add all files to staging
+git add .
+
+# Commit changes
+git commit -m "Your commit message"
+
+# Push to GitHub
+git push
+
+# 🚀 Quick Full Workflow Example
+git status
+git add .
+git commit -m "Describe what you changed"
+git push origin main
